@@ -1,0 +1,119 @@
+﻿└── public/
+│   └── header_img.png
+│   └── vite.svg
+└── src/
+│   └── assets/
+│   │   └── add_icon_green.png
+│   │   └── add_icon_white.png
+│   │   └── app_store.png
+│   │   └── assets.js
+│   │   └── bag_icon.png
+│   │   └── basket_icon.png
+│   │   └── cross_icon.png
+│   │   └── facebook_icon.png
+│   │   └── food_1.png
+│   │   └── food_10.png
+│   │   └── food_11.png
+│   │   └── food_12.png
+│   │   └── food_13.png
+│   │   └── food_14.png
+│   │   └── food_15.png
+│   │   └── food_16.png
+│   │   └── food_17.png
+│   │   └── food_18.png
+│   │   └── food_19.png
+│   │   └── food_2.png
+│   │   └── food_20.png
+│   │   └── food_21.png
+│   │   └── food_22.png
+│   │   └── food_23.png
+│   │   └── food_24.png
+│   │   └── food_25.png
+│   │   └── food_26.png
+│   │   └── food_27.png
+│   │   └── food_28.png
+│   │   └── food_29.png
+│   │   └── food_3.png
+│   │   └── food_30.png
+│   │   └── food_31.png
+│   │   └── food_32.png
+│   │   └── food_4.png
+│   │   └── food_5.png
+│   │   └── food_6.png
+│   │   └── food_7.png
+│   │   └── food_8.png
+│   │   └── food_9.png
+│   │   └── header_img.png
+│   │   └── linkedin_icon.png
+│   │   └── logo.png
+│   │   └── logout_icon.png
+│   │   └── menu_1.png
+│   │   └── menu_2.png
+│   │   └── menu_3.png
+│   │   └── menu_4.png
+│   │   └── menu_5.png
+│   │   └── menu_6.png
+│   │   └── menu_7.png
+│   │   └── menu_8.png
+│   │   └── parcel_icon.png
+│   │   └── play_store.png
+│   │   └── profile_icon.png
+│   │   └── rating_starts.png
+│   │   └── react.svg
+│   │   └── remove_icon_red.png
+│   │   └── search_icon.png
+│   │   └── selector_icon.png
+│   │   └── twitter_icon.png
+│   └── components/
+│   │   └── AppDownload/
+│   │   │   └── AppDownload.css
+│   │   │   └── AppDownload.jsx
+│   │   └── ExploreMenu/
+│   │   │   └── ExploreMenu.css
+│   │   │   └── ExploreMenu.jsx
+│   │   └── FoodDisplay/
+│   │   │   └── FoodDisplay.css
+│   │   │   └── FoodDisplay.jsx
+│   │   └── FoodItem/
+│   │   │   └── FoodItem.css
+│   │   │   └── FoodItem.jsx
+│   │   └── Footer/
+│   │   │   └── Footer.css
+│   │   │   └── Footer.jsx
+│   │   └── Header/
+│   │   │   └── Header.css
+│   │   │   └── Header.jsx
+│   │   └── LoginPopup/
+│   │   │   └── LoginPopup.css
+│   │   │   └── LoginPopup.jsx
+│   │   └── Navbar/
+│   │   │   └── Navbar.css
+│   │   │   └── Navbar.jsx
+│   └── context/
+│   │   └── StoreContext.jsx
+│   └── pages/
+│   │   └── Cart/
+│   │   │   └── Cart.css
+│   │   │   └── Cart.jsx
+│   │   └── Home/
+│   │   │   └── Home.css
+│   │   │   └── Home.jsx
+│   │   └── MyOrders/
+│   │   │   └── MyOrders.css
+│   │   │   └── MyOrders.jsx
+│   │   └── PlaceOrder/
+│   │   │   └── PlaceOrder.css
+│   │   │   └── PlaceOrder.jsx
+│   │   └── Verify/
+│   │   │   └── Verify.css
+│   │   │   └── Verify.jsx
+│   └── App.css
+│   └── App.jsx
+│   └── index.css
+│   └── main.jsx
+└── eslint.config.js
+└── index.html
+└── package-lock.json
+└── package.json
+└── README.md
+└── vite.config.js

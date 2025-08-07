@@ -1,0 +1,277 @@
+﻿└── admin/
+│   └── public/
+│   │   └── vite.svg
+│   └── src/
+│   │   └── assets/
+│   │   │   └── add_icon.png
+│   │   │   └── assets.js
+│   │   │   └── logo.png
+│   │   │   └── order_icon.png
+│   │   │   └── parcel_icon.png
+│   │   │   └── profile_image.png
+│   │   │   └── upload_area.png
+│   │   └── components/
+│   │   │   └── Navbar/
+│   │   │   │   └── Navbar.css
+│   │   │   │   └── Navbar.jsx
+│   │   │   └── Sidebar/
+│   │   │   │   └── Sidebar.css
+│   │   │   │   └── Sidebar.jsx
+│   │   └── pages/
+│   │   │   └── Add/
+│   │   │   │   └── Add.css
+│   │   │   │   └── Add.jsx
+│   │   │   └── List/
+│   │   │   │   └── List.css
+│   │   │   │   └── List.jsx
+│   │   │   └── Orders/
+│   │   │   │   └── Orders.css
+│   │   │   │   └── Orders.jsx
+│   │   └── App.jsx
+│   │   └── index.css
+│   │   └── main.jsx
+│   └── .gitignore
+│   └── eslint.config.js
+│   └── index.html
+│   └── package-lock.json
+│   └── package.json
+│   └── README.md
+│   └── vite.config.js
+└── backend/
+│   └── config/
+│   │   └── db.js
+│   └── controllers/
+│   │   └── cartController.js
+│   │   └── foodController.js
+│   │   └── orderController.js
+│   │   └── userController.js
+│   └── middleware/
+│   │   └── auth.js
+│   └── models/
+│   │   └── foodModel.js
+│   │   └── orderModel.js
+│   │   └── userModel.js
+│   └── routes/
+│   │   └── cartRoute.js
+│   │   └── foodRoute.js
+│   │   └── orderRoute.js
+│   │   └── userRoute.js
+│   └── uploads/
+│   │   └── 17537741369662025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741416312025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741416322025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741416342025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741416382025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741417542025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741510492025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741510562025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537741516672025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743362312025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743380372025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743382062025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743384082025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743387002025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743387562025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743389362025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743390492025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743391172025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743392742025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743399582025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743399982025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743400462025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743401362025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743406462025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743406912025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743407762025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743408732025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743410602025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743412162025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743414052025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743415812025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743417612025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743419722025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743422702025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743425492025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743446522025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743446552025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743446592025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743453522025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743457602025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743460092025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743462092025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743464152025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743467452025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743903422025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743912302025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743919772025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743922262025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743944192025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743946352025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537743948312025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537769814312025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537769823492025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537769826652025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537769828452025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778382152025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778382662025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778411872025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778412002025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778419202025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778423722025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778427082025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778527452025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537778810222025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537779748372025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537803105512025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537804004862025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537806408022025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537806408562025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537806783302025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 17537837080832025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png
+│   │   └── 1753796095834logo.png
+│   │   └── 1753798923324food_1.png
+│   │   └── 1753798940482food_2.png
+│   │   └── 1753798950836food_3.png
+│   │   └── 1753798962928food_4.png
+│   │   └── 1753798962973food_4.png
+│   │   └── 1753798980257food_5.png
+│   │   └── 1753799098634food_6.png
+│   │   └── 1753799110448food_7.png
+│   │   └── 1753799110501food_7.png
+│   │   └── 1753799124836food_8.png
+│   │   └── 1753799124891food_8.png
+│   │   └── 1753799138001food_9.png
+│   │   └── 1753799151480food_10.png
+│   │   └── 1753799270343food_17.png
+│   │   └── 1753799279424food_11.png
+│   │   └── 1753799291023food_14.png
+│   │   └── 1753799300004food_15.png
+│   │   └── 1753799309813food_16.png
+│   │   └── 1753799321458food_19.png
+│   │   └── 1753799330924food_32.png
+│   │   └── 1753799330988food_32.png
+│   └── .env
+│   └── package-lock.json
+│   └── package.json
+│   └── server.js
+└── frontend/
+│   └── public/
+│   │   └── header_img.png
+│   │   └── vite.svg
+│   └── src/
+│   │   └── assets/
+│   │   │   └── add_icon_green.png
+│   │   │   └── add_icon_white.png
+│   │   │   └── app_store.png
+│   │   │   └── assets.js
+│   │   │   └── bag_icon.png
+│   │   │   └── basket_icon.png
+│   │   │   └── cross_icon.png
+│   │   │   └── facebook_icon.png
+│   │   │   └── food_1.png
+│   │   │   └── food_10.png
+│   │   │   └── food_11.png
+│   │   │   └── food_12.png
+│   │   │   └── food_13.png
+│   │   │   └── food_14.png
+│   │   │   └── food_15.png
+│   │   │   └── food_16.png
+│   │   │   └── food_17.png
+│   │   │   └── food_18.png
+│   │   │   └── food_19.png
+│   │   │   └── food_2.png
+│   │   │   └── food_20.png
+│   │   │   └── food_21.png
+│   │   │   └── food_22.png
+│   │   │   └── food_23.png
+│   │   │   └── food_24.png
+│   │   │   └── food_25.png
+│   │   │   └── food_26.png
+│   │   │   └── food_27.png
+│   │   │   └── food_28.png
+│   │   │   └── food_29.png
+│   │   │   └── food_3.png
+│   │   │   └── food_30.png
+│   │   │   └── food_31.png
+│   │   │   └── food_32.png
+│   │   │   └── food_4.png
+│   │   │   └── food_5.png
+│   │   │   └── food_6.png
+│   │   │   └── food_7.png
+│   │   │   └── food_8.png
+│   │   │   └── food_9.png
+│   │   │   └── header_img.png
+│   │   │   └── linkedin_icon.png
+│   │   │   └── logo.png
+│   │   │   └── logout_icon.png
+│   │   │   └── menu_1.png
+│   │   │   └── menu_2.png
+│   │   │   └── menu_3.png
+│   │   │   └── menu_4.png
+│   │   │   └── menu_5.png
+│   │   │   └── menu_6.png
+│   │   │   └── menu_7.png
+│   │   │   └── menu_8.png
+│   │   │   └── parcel_icon.png
+│   │   │   └── play_store.png
+│   │   │   └── profile_icon.png
+│   │   │   └── rating_starts.png
+│   │   │   └── react.svg
+│   │   │   └── remove_icon_red.png
+│   │   │   └── search_icon.png
+│   │   │   └── selector_icon.png
+│   │   │   └── twitter_icon.png
+│   │   └── components/
+│   │   │   └── AppDownload/
+│   │   │   │   └── AppDownload.css
+│   │   │   │   └── AppDownload.jsx
+│   │   │   └── ExploreMenu/
+│   │   │   │   └── ExploreMenu.css
+│   │   │   │   └── ExploreMenu.jsx
+│   │   │   └── FoodDisplay/
+│   │   │   │   └── FoodDisplay.css
+│   │   │   │   └── FoodDisplay.jsx
+│   │   │   └── FoodItem/
+│   │   │   │   └── FoodItem.css
+│   │   │   │   └── FoodItem.jsx
+│   │   │   └── Footer/
+│   │   │   │   └── Footer.css
+│   │   │   │   └── Footer.jsx
+│   │   │   └── Header/
+│   │   │   │   └── Header.css
+│   │   │   │   └── Header.jsx
+│   │   │   └── LoginPopup/
+│   │   │   │   └── LoginPopup.css
+│   │   │   │   └── LoginPopup.jsx
+│   │   │   └── Navbar/
+│   │   │   │   └── Navbar.css
+│   │   │   │   └── Navbar.jsx
+│   │   └── context/
+│   │   │   └── StoreContext.jsx
+│   │   └── pages/
+│   │   │   └── Cart/
+│   │   │   │   └── Cart.css
+│   │   │   │   └── Cart.jsx
+│   │   │   └── Home/
+│   │   │   │   └── Home.css
+│   │   │   │   └── Home.jsx
+│   │   │   └── MyOrders/
+│   │   │   │   └── MyOrders.css
+│   │   │   │   └── MyOrders.jsx
+│   │   │   └── PlaceOrder/
+│   │   │   │   └── PlaceOrder.css
+│   │   │   │   └── PlaceOrder.jsx
+│   │   │   └── Verify/
+│   │   │   │   └── Verify.css
+│   │   │   │   └── Verify.jsx
+│   │   └── App.css
+│   │   └── App.jsx
+│   │   └── index.css
+│   │   └── main.jsx
+│   └── eslint.config.js
+│   └── index.html
+│   └── package-lock.json
+│   └── package.json
+│   └── README.md
+│   └── vite.config.js
+└── .gitignore
