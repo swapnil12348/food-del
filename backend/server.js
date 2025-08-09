@@ -8,25 +8,28 @@ import cartRouter from './routes/cartRoute.js';
 import orderRouter from './routes/orderRoute.js';
 
 //app config
-
 const app=express()
 const PORT= process.env.PORT ||4000
 
 //middleware
 app.use(express.json())
 app.use(cors({
-  origin: true, // This allows all origins
-  credentials: true
+  origin: [
+    'https://food-del-frontend-kamc.onrender.com',
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'http://localhost:5174'
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'token']
 }))
 
 // db connection
-
 connectDB();
 
 //api endpoint
-
 app.use("/api/food", foodRouter)
-
 app.use("/images", express.static('uploads'))
 app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
@@ -36,8 +39,6 @@ app.get("/",(req,res)=>{
     res.send("API Working")
 })
 
-
 app.listen(PORT,()=>{
     console.log(`Server is running on http://localhost:${PORT}`)
 })
-
