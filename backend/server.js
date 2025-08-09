@@ -30,7 +30,15 @@ connectDB();
 
 //api endpoint
 app.use("/api/food", foodRouter)
-app.use("/images", express.static('uploads'))
+
+// Fix for image serving with proper headers
+app.use("/images", (req, res, next) => {
+  res.header('Cross-Origin-Resource-Policy', 'cross-origin');
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET');
+  next();
+}, express.static('uploads'))
+
 app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
